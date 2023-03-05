@@ -15,3 +15,6 @@ KeychainWrapper.standard.set("", forKey: "baseApiKey")
 ```
 
 Step 4. You can then start typing in text to get responses depending on your chosen model.
+
+https://user-images.githubusercontent.com/52855516/222941851-2c073d1d-4314-400d-bab3-8daf9c3cf769.mp4
+
