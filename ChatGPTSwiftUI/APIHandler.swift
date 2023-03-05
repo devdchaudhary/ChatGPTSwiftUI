@@ -77,7 +77,7 @@ struct APIHandler {
     
     func fetchDavinciResponse(searchQuery: String, completion: @escaping (Result<[String: Any], Error>) -> Void) {
         
-        KeychainWrapper.standard.set("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", forKey: "baseApiKey")
+        KeychainWrapper.standard.set("", forKey: "baseApiKey")
         
         let urlExt = URLExtension.completions.rawValue
         
