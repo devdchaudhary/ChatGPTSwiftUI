@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		B6016E1E29B1F37A009C0DFD /* ChatGPTSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E1D29B1F37A009C0DFD /* ChatGPTSwiftUIApp.swift */; };
-		B6016E2029B1F37A009C0DFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E1F29B1F37A009C0DFD /* ContentView.swift */; };
 		B6016E2229B1F37B009C0DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6016E2129B1F37B009C0DFD /* Assets.xcassets */; };
 		B6016E2529B1F37B009C0DFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6016E2429B1F37B009C0DFD /* Preview Assets.xcassets */; };
+		B6016E2C29B1F468009C0DFD /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E2B29B1F467009C0DFD /* APIHandler.swift */; };
+		B6016E2E29B1F493009C0DFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E2D29B1F493009C0DFD /* Constants.swift */; };
+		B6016E3029B1F4AB009C0DFD /* GPTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E2F29B1F4AB009C0DFD /* GPTModel.swift */; };
+		B6016E3229B1F4B3009C0DFD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E3129B1F4B3009C0DFD /* ViewModel.swift */; };
+		B6016E3429B1F4B8009C0DFD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6016E3329B1F4B8009C0DFD /* View.swift */; };
+		B66DB92E29B3313500EEB8DA /* DaVinciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66DB92D29B3313500EEB8DA /* DaVinciModel.swift */; };
+		B6936B2F29B2AF60002FF971 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = B6936B2E29B2AF60002FF971 /* SwiftKeychainWrapper */; };
+		B6936B3129B30337002FF971 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6936B3029B30337002FF971 /* Extensions.swift */; };
+		B6AFF4F929B430E60048A1DF /* ChatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF4F829B430E60048A1DF /* ChatItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6016E1A29B1F37A009C0DFD /* ChatGPTSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6016E1D29B1F37A009C0DFD /* ChatGPTSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTSwiftUIApp.swift; sourceTree = "<group>"; };
-		B6016E1F29B1F37A009C0DFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6016E2129B1F37B009C0DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6016E2429B1F37B009C0DFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6016E2B29B1F467009C0DFD /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		B6016E2D29B1F493009C0DFD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6016E2F29B1F4AB009C0DFD /* GPTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTModel.swift; sourceTree = "<group>"; };
+		B6016E3129B1F4B3009C0DFD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B6016E3329B1F4B8009C0DFD /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B66DB92D29B3313500EEB8DA /* DaVinciModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaVinciModel.swift; sourceTree = "<group>"; };
+		B6936B3029B30337002FF971 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B6AFF4F829B430E60048A1DF /* ChatItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItemView.swift; sourceTree = "<group>"; };
+		B6AFF4FA29B442D20048A1DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6936B2F29B2AF60002FF971 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +52,7 @@
 		B6016E1129B1F37A009C0DFD = {
 			isa = PBXGroup;
 			children = (
+				B6AFF4FA29B442D20048A1DF /* README.md */,
 				B6016E1C29B1F37A009C0DFD /* ChatGPTSwiftUI */,
 				B6016E1B29B1F37A009C0DFD /* Products */,
 			);
@@ -52,7 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				B6016E1D29B1F37A009C0DFD /* ChatGPTSwiftUIApp.swift */,
-				B6016E1F29B1F37A009C0DFD /* ContentView.swift */,
+				B6016E2B29B1F467009C0DFD /* APIHandler.swift */,
+				B6016E2D29B1F493009C0DFD /* Constants.swift */,
+				B6936B3029B30337002FF971 /* Extensions.swift */,
+				B6016E2F29B1F4AB009C0DFD /* GPTModel.swift */,
+				B66DB92D29B3313500EEB8DA /* DaVinciModel.swift */,
+				B6016E3129B1F4B3009C0DFD /* ViewModel.swift */,
+				B6016E3329B1F4B8009C0DFD /* View.swift */,
+				B6AFF4F829B430E60048A1DF /* ChatItemView.swift */,
 				B6016E2129B1F37B009C0DFD /* Assets.xcassets */,
 				B6016E2329B1F37B009C0DFD /* Preview Content */,
 			);
@@ -83,6 +108,9 @@
 			dependencies = (
 			);
 			name = ChatGPTSwiftUI;
+			packageProductDependencies = (
+				B6936B2E29B2AF60002FF971 /* SwiftKeychainWrapper */,
+			);
 			productName = ChatGPTSwiftUI;
 			productReference = B6016E1A29B1F37A009C0DFD /* ChatGPTSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +139,9 @@
 				Base,
 			);
 			mainGroup = B6016E1129B1F37A009C0DFD;
+			packageReferences = (
+				B6936B2D29B2AF60002FF971 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = B6016E1B29B1F37A009C0DFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6016E2029B1F37A009C0DFD /* ContentView.swift in Sources */,
+				B6016E3029B1F4AB009C0DFD /* GPTModel.swift in Sources */,
+				B6016E2C29B1F468009C0DFD /* APIHandler.swift in Sources */,
+				B6AFF4F929B430E60048A1DF /* ChatItemView.swift in Sources */,
 				B6016E1E29B1F37A009C0DFD /* ChatGPTSwiftUIApp.swift in Sources */,
+				B6016E3229B1F4B3009C0DFD /* ViewModel.swift in Sources */,
+				B66DB92E29B3313500EEB8DA /* DaVinciModel.swift in Sources */,
+				B6016E3429B1F4B8009C0DFD /* View.swift in Sources */,
+				B6016E2E29B1F493009C0DFD /* Constants.swift in Sources */,
+				B6936B3129B30337002FF971 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6936B2D29B2AF60002FF971 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6936B2E29B2AF60002FF971 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6936B2D29B2AF60002FF971 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6016E1229B1F37A009C0DFD /* Project object */;
 }
